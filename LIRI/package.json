@@ -12,6 +12,7 @@
     "dotenv": "^6.1.0",
     "inquirer": "^6.2.0",
     "logger": "0.0.1",
+    "mime": "^2.3.1",
     "moment": "^2.22.2",
     "node": "^11.0.0",
     "node-spotify-api": "^1.0.7",
