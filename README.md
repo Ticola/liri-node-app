@@ -69,11 +69,26 @@ In this assignment, the project consisted of creating LIRI. LIRI is like iPhone'
 
 ### **Show & Tell**
 
-![spotify-this](/images/spotify-this.png)
+![spotify-this](/LIRI/images/spotify-this.png)
 
-![concert-this](/images/concert-this.png)
+- - -
 
-![movie-this](/images/movie-this.png)
+![concert-this](/LIRI/images/concert-this.png)
 
+- - -
 
+![movie-this](/LIRI/images/movie-this.png)
+
+- - -
+
+LIRI Bot is created with:
+```
+Node.js
+Moment.js
+Spotify, BandsInTown, and OMDB APIs
+Dependencies:
+    * Request
+    * DotEnv
+    * Node-Spotify-API
+```
 
