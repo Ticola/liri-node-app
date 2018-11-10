@@ -86,14 +86,14 @@ function mySwitch(userCommand) {
                 console.log('================ Movie Info Results================');
                 console.log("Title: " + body.Title);
                 console.log("Release Year: " + body.Year);
-                console.log("IMdB Rating: " + body.imdbRating);
+                console.log("IMDB Rating: " + body.imdbRating);
                 console.log("Country: " + body.Country);
                 console.log("Language: " + body.Language);
                 console.log("Plot: " + body.Plot);
                 console.log("Actors: " + body.Actors);
                 console.log("Rotten Tomatoes Rating: " + body.Ratings[2].Value);
                 console.log("Rotten Tomatoes URL: " + body.tomatoURL);
-                console.log('==================END====================');
+                console.log('==================END==============================');
 
             } else {
                 console.log("Error occurred.")
@@ -112,11 +112,11 @@ function mySwitch(userCommand) {
         let queryURL = "https://rest.bandsintown.com/artists/" + artistName + "/events?app_id=70472da13b62029c60f902691c864e84";
         request(queryURL, function (err, response, body) {
             let concertInfo = JSON.parse(body);
-            for (var i = 0; i < 3; i++) {
+            for (var i = 0; i < 5; i++) {
                 var show = concertInfo[i];
                 console.log("Venue: " + show.venue.name);
                 console.log("Location: " + show.venue.city + ", " + show.venue.country);
-                console.log(moment(show.datetime).format("DD/MM/YY"));
+                console.log(moment(show.datetime).format("MM/DD/YY"));
             }
         })
         console.log("CONCERT THIS: ");

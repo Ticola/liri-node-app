@@ -69,4 +69,11 @@ In this assignment, the project consisted of creating LIRI. LIRI is like iPhone'
 
 ### **Show & Tell**
 
+![spotify-this](/images/spotify-this.png)
+
+![concert-this](/images/concert-this.png)
+
+![movie-this](/images/movie-this.png)
+
+
 
